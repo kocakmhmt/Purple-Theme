@@ -1,11 +1,9 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+# [Purple Theme](http://kodofisi.org)
 
-HTML5 Boilerplate is a professional front-end template for building fast,
-robust, and adaptable web apps or sites.
-
-This project is the product of many years of iterative development and combined
-community knowledge. It does not impose a specific development philosophy or
-framework, so you're free to architect your code in the way that you want.
+With this theme you can express yourself easily. Theme design was given to the purple and blue colors.
+Theme design simplicity and while attention was paid to look beautiful.
+Theme can be used and edited as you desire.
+Mehmet Koçak // www.kodofisi.org
 
 * Source: [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
 * Homepage: [http://www.kodofisi.org](http://kodofisi.org)
