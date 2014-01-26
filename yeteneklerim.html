@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- MEHMET KOÇAK / KodOfisi.org -->
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yeteneklerim | Kod Ofisi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		var a = 0;
+		$('.menuAc').click(function(){
+			if ( a == 0 ){
+				$(this).text('MENÜYÜ GİZLE');
+				a++;
+			} else {
+				$(this).text('MENÜYÜ AÇ');
+				a = 0;
+			}
+			$(this).next('ul').slideToggle(500);
+		});
+	});
+	</script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+ <div class="container logo">
+		<img src="http://kodofisi.org/tema/logo.png" />
+      </div>
+      
+      <nav style="margin-top: 50px;" class="navbar">
+      	<div class="container">
+      		<div class="menu">
+      			<div class="menuAc">MENÜ AÇ</div>
+      			<ul>
+      				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+      				<li><a href="hakkimda.html">Hakkımda</a></li>
+      				<li><a href="calismalarim.html">Çalışmalarım</a></li>
+      				<li class="active"><a href="yeteneklerim.html">Yeteneklerim</a></li>
+      				<li><a href="iletisim.html">İletişim</a></li>
+      				</ul>
+      		</div>
+  		</div>
+		</nav>
+    
+    <div style="padding: 0px 0px 20px 0px;" class="container">
+	<div class="icerik">
+		  <h4>Yeteneklerim <small>Neler Biliyorum?</small></h4>
+	<div class="row">
+  	<div class="col-md-6">
+		  <h3>HTML</h3>
+		 <div class="progress">
+		  	<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+		    <span class="sr-only">95% Complete </span>
+		  </div>
+		</div>
+		</div>
+		<div class="col-md-6">
+		<h3>CSS</h3>
+		 <div class="progress">
+		  	<div class="progress-bar progress-bar-success " role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+		    <span class="sr-only">90% Complete</span>
+		  </div>
+		</div>
+		</div>
+		<div class="col-md-6">
+		<h3>PHP</h3>
+		 <div class="progress">
+		  	<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+		    <span class="sr-only">60% Complete </span>
+		  </div>
+		</div>
+		</div>
+		<div class="col-md-6">
+		<h3>jQuery</h3>
+		 <div class="progress">
+		  	<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
+		    <span class="sr-only">70% Complete </span>
+		  </div>
+		</div>
+		</div>
+		</div>
+	</div>
+
+
+      	
+		<script src="js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+      
+    </body>
+</html>

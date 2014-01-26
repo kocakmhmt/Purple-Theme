@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- MEHMET KOÇAK / KodOfisi.org -->
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Yeteneklerim | Kod Ofisi</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">
+	$(function(){
+		var a = 0;
+		$('.menuAc').click(function(){
+			if ( a == 0 ){
+				$(this).text('MENÜYÜ GİZLE');
+				a++;
+			} else {
+				$(this).text('MENÜYÜ AÇ');
+				a = 0;
+			}
+			$(this).next('ul').slideToggle(500);
+		});
+	});
+	</script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+ <div class="container logo">
+		<img src="http://kodofisi.org/tema/logo.png" />
+      </div>
+      
+      <nav style="margin-top: 50px;" class="navbar">
+      	<div class="container">
+      		<div class="menu">
+      			<div class="menuAc">MENÜ AÇ</div>
+      			<ul>
+      				<li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+      				<li><a href="hakkimda.html">Hakkımda</a></li>
+      				<li><a href="calismalarim.html">Çalışmalarım</a></li>
+      				<li><a href="yeteneklerim.html">Yeteneklerim</a></li>
+      				<li class="active"><a href="iletisim.html">İletişim</a></li>
+      				</ul>
+      		</div>
+  		</div>
+		</nav>
+    
+    <div style="padding: 0px 0px 20px 0px;" class="container">
+	<div class="icerik">
+		  <h4>İletişim <small>Bana Ulaş</small></h4>
+		<div class="row">
+  <div class="col-md-6">
+       <form name="iletisim" method="POST" action="gonder.php">
+    Ad Soyad: <input type="text" class="form-control" name="ad_soyad" size="25"><br />
+        Telefon: <input type="text" class="form-control" name="tel" size="25"><br />
+        E-Mail: <input type="text" class="form-control" name="email"  size="25"><br />
+   Mesajınız: <textarea rows="5" class="form-control" name="mesaj"  cols="25"></textarea><br />
+              <input type="submit" class="btn btn-default" name="button" value="Gönder">
+         </form>
+</div>
+<div class="col-md-6">
+<address>
+  <strong>Kod Ofisi Yazılım Hizmetleri</strong><br>
+    <strong>+9000000000</strong><br>
+    <strong>Denizli/Turkey</strong><br>
+  <a href="mailto:info@kodofisi.org">info@kodofisi.org</a>
+</address>
+</div>
+</div>
+		
+		</div>
+		</div>
+
+
+      	
+		<script src="js/bootstrap.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+      
+    </body>
+</html>
